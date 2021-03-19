@@ -1,0 +1,76 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  font-family: Arial, sans-serif;
+
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+
+}
+.navbar-left {
+  float: left;
+  padding: 30px 10px 10px 10px;
+  vertical-align: middle;
+
+}
+.navbar-right {
+  float: right;
+  padding: 10px;
+
+}
+
+.google-logo {
+  padding: 200px 0px 20px 0px;
+  margin: auto;
+  width: 30%;
+}
+
+.search-box {
+  margin: auto;
+  padding: 10px;
+  width: 30%;
+}
+
+.buttons {
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  width: 30%;
+}
+
+footer {
+  position: fixed;
+  width: 50%
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+}
+.footer-left{
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 60px;
+  vertical-align: middle;
+}
