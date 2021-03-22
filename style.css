@@ -4,6 +4,8 @@ ul {
   margin: 0;
   padding: 10;
   font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
 
 }
 
@@ -21,52 +23,79 @@ a {
 }
 
 nav {
-
+  display: flex;
+  width: 100%;
 }
+
 .navbar-left {
-  float: left;
   padding: 30px 10px 10px 10px;
   vertical-align: middle;
-
+  margin-right: auto;
 }
+
 .navbar-right {
-  float: right;
   padding: 10px;
 
 }
 
 .google-logo {
-  padding: 200px 0px 20px 0px;
+  padding: 180px 0px 20px 0px;
   margin: auto;
   width: 30%;
 }
 
 .search-box {
+  display: flex;
   margin: auto;
   padding: 10px;
-  width: 30%;
+  height: 20px;
+  width: 550px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #ddd;
+
+}
+
+input {
+  border-style: hidden;
+}
+
+.search-input:focus {
+  outline: none;
+
 }
 
 .buttons {
   margin: auto;
   display: flex;
+  padding: 20px;
+  width: 40%;
+}
+
+.google-search {
   padding: 10px;
-  width: 30%;
+}
+
+.feeling-lucky {
+  padding: 10px;
 }
 
 footer {
   position: fixed;
-  width: 50%
+  display: flex;
+  width: 100%;
   left: 0;
   bottom: 0;
   padding: 10px;
+  background-color: #eee;
 }
 .footer-left{
-  float: left;
+  margin-right: auto;
 }
 
 .footer-right {
-  float: right;
+  margin-right: 10px;
 }
 
 .avatar {
