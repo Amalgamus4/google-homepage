@@ -38,6 +38,43 @@ nav {
 
 }
 
+.apps-container-outline {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 0px;
+}
+
+.apps-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  padding: auto;
+}
+
+.apps-container-outline:hover {
+  background-color: #eee;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.apps-item {
+  background-color: #777;
+  border-radius: 50%;
+  margin: 1px;
+  padding: 0px;
+}
+
 .google-logo {
   padding: 180px 0px 20px 0px;
   margin: auto;
